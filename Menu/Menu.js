@@ -6,5 +6,7 @@ const toggleMenu = () => {
 // Start Here: Create a reference to the ".menu" class
 const menu;
 // create a reference to the ".menu-button" class
+document.querySelector('menu')
+
 const menuButton;
 // Using your menuButton reference, add a click handler that calls toggleMenu
