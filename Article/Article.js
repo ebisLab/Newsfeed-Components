@@ -20,12 +20,11 @@ if (this.expandButton.textContent === 'expand'){
   this.expandButton.textContent = 'close';
   this.domElement.classList.toggle('article-open')
 }
+
 else if (this.expandButton.textContent === 'close') {
   this.expandButton.textContent = 'expand';
   this.domElement.classList.toggle('article-open')
 }
-
-
   }
 }
 
