@@ -29,3 +29,9 @@ article as a parameter to the Article class.
 */
 
 let articles = document.querySelectorAll('.article');
+
+articles.forEach(anl => {
+
+  new Article(anl)
+  
+});
