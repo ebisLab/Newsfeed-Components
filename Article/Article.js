@@ -53,14 +53,14 @@ console.log('Button clicked')
 //closeButton.classList.toggle('close')
 if (event.target.innerText === 'expand'){
   event.target.innerText = 'close';
-  articleSection.classList.toggle('article-open')
+  //articleSection.classList.toggle('article-open')
 }
 else if (event.target.innerText === 'close'){
   event.target.innerText = 'expand';
-  articleSection.classList.toggle('article-open')
+  //articleSection.classList.toggle('article-open')
 }
 
-//articleSection.classList.toggle('article-open')
+articleSection.classList.toggle('article-open')
 
 
   })
